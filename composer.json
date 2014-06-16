@@ -24,9 +24,9 @@
     "license": "MIT",
     "require": {
         "php": ">=5.4.0",
-        "zendframework/zendframework": "2.*",
         "ext-json": "*",
-        "videlalvaro/php-amqplib": "v2.*"
+        "zendframework/zendframework": "2.*",
+        "videlalvaro/php-amqplib": "*"
     },
     "require-dev": {
         "fzaninotto/faker": "dev-master",
@@ -39,7 +39,7 @@
         "psr-0": {
             "RabbitMQClient": "src/"
         }
-    }
+    },
     "prefer-stable": true,
     "config": {
         "bin-dir": "vendor/bin/"
